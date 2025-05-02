@@ -1,5 +1,6 @@
 @import "menu.css";
 @import "corpo.css";
+@import "cards.css";
 
 *{
     margin: 0;
@@ -7,4 +8,7 @@
 }
 body{
     background-color: #F3F3F3;
+}
+html{
+    scroll-behavior: smooth;
 }
