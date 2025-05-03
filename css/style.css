@@ -2,14 +2,16 @@
 @import "corpo.css";
 @import "cards.css";
 @import "ferramentas.css";
+@import "mvv.css";
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background-color: #F3F3F3;
-    height: 2000px;
 }
+
 html{
     scroll-behavior: smooth;
 }
