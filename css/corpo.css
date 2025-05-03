@@ -48,7 +48,7 @@
 
 #btnOrc{
     background-color: #1A1B36;
-    box-shadow: 0px 2px 7px #D9D9D9;
+    box-shadow: 0px 2px 7px gray;
     color: #fff;
     width: 220px;
     border: none;
@@ -83,4 +83,76 @@
     margin-bottom: 10px;
     margin-left: calc((100% - 90px)/2);
     border: 1px solid #000;
+}
+
+#secQeumSomos{
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 40px;
+}
+
+#pTituloQuem{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#pConheca{
+    font-size: 20px;
+    text-align: center;
+}
+
+#divLongTech{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgLogoQuemSomos{
+    width: 150px;
+}
+
+#divTxtLong{
+    margin-left: 4%;
+}
+
+#pTituloLong{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#pTxtLong{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.pTituloGeral{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 40px;
+    text-decoration-thickness: 1.5px;
+}
+#txtNossaEquipe{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#divImgequipe{
+    width: 500px;
+    height: 200px;
+    margin-left: calc((100% - 500px)/2);
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    align-items: center;
+}
+
+#pAno{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
 }
