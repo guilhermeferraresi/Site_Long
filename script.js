@@ -1,3 +1,5 @@
-function func(){
-    alert("Hello World!");
+let modo = 1;
+
+function mudarModo(){
+    
 }
