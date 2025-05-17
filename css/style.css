@@ -3,6 +3,7 @@
 @import "cards.css";
 @import "ferramentas.css";
 @import "mvv.css";
+@import "footer.css";
 
 *{
     margin: 0;
