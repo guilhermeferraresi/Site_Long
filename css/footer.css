@@ -1,0 +1,66 @@
+footer{
+    background-color: #1A1B36;
+    margin-top: 30px;
+    height: 210px;
+}
+
+#fCima{
+    display: flex;
+    justify-content: space-between;
+}
+
+#fEsquerda{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+#imgLogoFooter{
+    width: 170px;
+    margin-left: 10px;
+}
+
+.imgRedesFooter{
+    width: 30px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+.titFooter{
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.pGeralFooter{
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.classMenuEContato{
+    margin-top: 30px;
+}
+
+#divRedesFooter{
+    width: 240px;
+    margin-top: 30px;
+}
+
+#containerRedes{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divImgRedesFooter{
+    background-color: #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}
+
+#pDireitosFooter{
+    color: #fff;
+    text-align: center;
+}
