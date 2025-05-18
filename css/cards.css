@@ -7,13 +7,13 @@
     height: 350px;
 }
 
-.alignCard{
-    height: 86%;
-    margin-top: 7%;
-    width: 100%;
+.topoCard{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    width: 82%;
+    margin-left: 9%;
+    align-items: center;
+    margin-top: 18px;
 }
 
 .card{
@@ -25,18 +25,9 @@
     overflow: hidden;
 }
 
-.topoCard{
-    display: flex;
-    justify-content: space-between;
-    width: 82%;
-    margin-left: 9%;
-    align-items: center;
-    margin-top: 18px;
-}
 
 .conteudoAntes, .conteudoHover{
     position: absolute;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .conteudoAntes{
@@ -46,6 +37,7 @@
     justify-content: space-between;
     height: 197px;
     visibility: visible;
+    opacity: 1;
 }
 
 .conteudoHover{
@@ -57,6 +49,30 @@
     flex-direction: column;
     justify-content: space-between;
     height: 230px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover .conteudoAntes{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .conteudoHover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover .conteudoAntes, .card:hover .conteudoHover{
+    pointer-events: none;
+}
+
+.card:not(:hover) .conteudoAntes{
+    transition-delay: 2.5s;
+}
+
+.card:not(:hover) .conteudoHover{
+    transition-delay: 2.5s;
 }
 
 .txtCards{
@@ -75,8 +91,9 @@
 }
 
 .caracCards{
-    width: 82%;
-    margin-left: 9%;
+    /* width: 82%; */
+    width: 196.8px;
+    margin-left: 21.6px;
     border: 1px solid #fff;
     border-radius: 4px;
     text-align: center;
