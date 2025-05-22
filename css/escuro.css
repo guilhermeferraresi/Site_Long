@@ -8,6 +8,12 @@ body.modo-escuro #topo{
     background-color: #1a1a1a;
 }
 
+body.modo-escuro .linha{
+    width: 90px;
+    margin-left: 20px;
+    border: 0.9px solid #ffffff;
+}
+
 body.modo-escuro .pTituloGeral{
     font-size: 30px;
     font-weight: bold;

@@ -1,6 +1,7 @@
 #secFerramentas{
     width: 90%;
-    margin-left: 5%;
+    max-width: 1300px;
+    margin: 0 auto 0 auto;
 }
 
 #containerCarro{
