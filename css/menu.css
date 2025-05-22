@@ -10,8 +10,8 @@
 
 #menu{
     width: 96%;/* 96%*/
-    max-width: 1215px;
-    margin-left: auto;
+    max-width: 1275px;
+    margin: 0 auto 0 auto;
     height: 60px;
     display: flex;
     align-items: center;

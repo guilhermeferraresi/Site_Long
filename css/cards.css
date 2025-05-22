@@ -1,9 +1,9 @@
 #secSolucoes{
     width: 90%;
-    margin-left: 5%;
+    max-width: 1239px;
+    margin: 50px auto 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
     height: 350px;
 }
 

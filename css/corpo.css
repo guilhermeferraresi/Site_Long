@@ -1,6 +1,6 @@
 #secInicio{
     width: 90%;
-    max-width: 1139px;
+    max-width: 1239px;
     height: auto;
     /* margin-left: calc((100% - 1139px)/2);
     margin-top: 90px; */
@@ -89,8 +89,8 @@
 
 #secQeumSomos{
     width: 86%;
-    margin-left: 7%;
-    margin-top: 40px;
+    max-width: 1160px;
+    margin: 40px auto 0 auto;
 }
 
 #pTituloQuem{
