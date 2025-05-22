@@ -212,7 +212,7 @@ const traducoes = {
         "pCardsResponsivos": "Responsive Websites",
         "pCardsAcessibilidade": "Web Accessibility",
         "txtCardsSites": "Also referred to as website development, it is the set of activities required to build a website.",
-        "letraCardsO": "O",
+        "letraCardsO": "Ó",
         "tituloCardUIUX": "UI / UX Design",
         "pCardsWireframes": "Interactive Wireframes",
         "pCardsDesignSystem": "Design System",

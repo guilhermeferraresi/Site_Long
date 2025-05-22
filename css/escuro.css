@@ -55,7 +55,7 @@ body.modo-escuro #secQeumSomos {
 }
 
 body.modo-escuro #divImgequipe {
-    background-color: #4a4747;
+    background-color: #1a1a1a;
 }
 
 body.modo-escuro #secFerramentas {
@@ -85,7 +85,8 @@ body.modo-escuro #btnOrc {
     color: #ffffff;
 }
 
-body.modo-escuro footer {
+body.modo-escuro #divFooter{
+    width: 100%;
     background-color: #0E3353;
 }
 
