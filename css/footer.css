@@ -54,7 +54,7 @@ footer{
 }
 
 .divImgRedesFooter{
-    background-color: #fff;
+    background-color: #1A1B36;
     width: 42px;
     height: 42px;
     border-radius: 100%;
@@ -64,3 +64,9 @@ footer{
     color: #fff;
     text-align: center;
 }
+
+#pTermosPolitica{
+    color: #fff;
+    text-align: center;
+}
+

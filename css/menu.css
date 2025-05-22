@@ -27,6 +27,7 @@
 
 #imgLogoMenu{
     width: 50px;
+    margin-left: 3%;
 }
 
 #pTechMenu{
@@ -55,7 +56,6 @@
 
 #divFuncMenu{
     width: 220px;
-    /* height: auto; */
     display: flex;
     justify-content: space-between;
 }
