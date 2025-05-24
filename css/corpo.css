@@ -146,16 +146,16 @@
 }
 
 #divImgequipe{
-    width: 800px;
-    height: 430px;
+    width: 60%;
+    max-width: 800px;
+    max-height: 430px;
     margin: 20px auto 0 auto;
     background-color: #F3F3F3;
     align-items: center;
 }
 
 #imgGrupo{
-    width: 800px;
-    height: 430px;
+    width: 100%;
 }
 
 #pAno{

@@ -80,6 +80,10 @@
     font-size: 20px;
 }
 
+#cardChato{
+    text-align: justify;
+}
+
 .letraCards{
     font-size: 35px;
     font-weight: bold;

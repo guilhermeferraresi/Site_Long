@@ -90,14 +90,6 @@ body.modo-escuro #divFooter{
     background-color: #0E3353;
 }
 
-body.modo-escuro .divImgRedesFooter{
-    background-color: #0E3353;
-    width: 42px;
-    height: 42px;
-    border-radius: 100%;
-}
-
-
 body.modo-escuro #pDireitosFooter,
 body.modo-escuro #pTermosPolitica {
     color: #cccccc;
