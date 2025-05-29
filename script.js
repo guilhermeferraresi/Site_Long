@@ -128,7 +128,7 @@ const traducoes = {
         "pCardsMetodologias": "Metodologias Ágeis",
         "pCardsTestes": "Testes de Software",
         "pCardsSeguranca": "Segurança da Informação",
-        "txtCardsSoftware": "Também conhecida<br> como desenvolvimento<br> de software, é o <br> processo de projetar,<br> criar, implementar e <KILL>manter um software",
+        "txtCardsSoftware": "Também conhecida como desenvolvimento de software, é o processo de projetar, criar, implementar e <KILL>manter um software",
         "letraCardsL": "L",
         "tituloCardSites": "Criação de Sites",
         "pCardsFrontend": "Desenvolvimento Front-end",
@@ -263,3 +263,5 @@ const traducoes = {
         "pTermosPolitica": "Terms and Conditions of Use       Privacy Policy"
     }
 };
+
+
