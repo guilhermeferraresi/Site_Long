@@ -1,0 +1,192 @@
+@import "menu.css";
+@import "corpo.css";
+@import "cards.css";
+@import "ferramentas.css";
+@import "mvv.css";
+@import "footer.css";
+@import "portifolio.css";
+
+/* 1348px */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3F3F3;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* ======== RESPONSIVIDADE GERAL ======== */
+
+/* Tablets (768px até 1024px) */
+@media (max-width: 1024px) {
+  /* Cards */
+  #secSolucoes {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .card {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  /* Seções em colunas */
+  #secInicio,
+  #divLongTech,
+  #secMVV,
+  #divTransforma {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #divImgequipe {
+    width: 100%;
+    height: auto;
+  }
+
+  #divPorC {
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .divMVV {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Footer */
+  #fCima {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #fEsquerda, #divRedesFooter {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .classMenuEContato {
+    margin-bottom: 20px;
+  }
+}
+
+/* Celulares (até 767px) */
+@media (max-width: 767px) {
+  /* Header */
+  #menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  #divLongMenu,
+  #divMenu,
+  #divFuncMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  #divMenu ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #secInicio {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  #divTexto,
+  #divContatos {
+    width: 90%;
+  }
+
+  #imgDragao {
+    width: 150px;
+    margin: 20px 0;
+  }
+
+  /* Cards */
+  .card {
+    width: 90%;
+  }
+
+  #secSolucoes {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+  }
+
+  /* Visão sobreposição com Transforma */
+  #secMVV {
+    margin-bottom: 60px;
+  }
+
+  #divTransforma {
+    margin-top: 80px;
+    width: 90%;
+    text-align: center;
+  }
+
+  /* Portfólio */
+  #portfolioCarousel .portfolio-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imgPortfolio {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .portfolio-text {
+    width: 100%;
+  }
+
+  /* Footer */
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  #fCima {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #fEsquerda, #divRedesFooter {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #containerRedes {
+    justify-content: center;
+  }
+
+  .divImgRedesFooter {
+    margin: 5px;
+  }
+}
+

@@ -1,0 +1,31 @@
+#secMVV{
+    width: 60%;
+    height: 370px;
+    margin-left: 20%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divMVV{
+    display: flex;
+}
+
+.imgMVV{
+    width: 100px;
+}
+
+.divTxtMVV{
+    margin-left: 2%;
+}
+
+.tituloMVV{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pTxtMVV{
+    font-size: 18px;
+    text-align: justify;
+}

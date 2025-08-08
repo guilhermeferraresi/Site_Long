@@ -1,0 +1,118 @@
+#secSolucoes{
+    width: 90%;
+    max-width: 1300px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.topoCard{
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin-left: 9%;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.card{
+    background-color: #1A1B36;
+    width: 240px;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.conteudoAntes, .conteudoHover{
+    position: absolute;
+}
+
+.conteudoAntes{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 197px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.conteudoHover{
+    text-align: center;
+    width: 82%;
+    margin-left: 9%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover .conteudoAntes{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .conteudoHover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover .conteudoAntes, .card:hover .conteudoHover{
+    pointer-events: none;
+}
+
+.card:not(:hover) .conteudoAntes{
+    transition-delay: 2.5s;
+}
+
+.card:not(:hover) .conteudoHover{
+    transition-delay: 2.5s;
+}
+
+.txtCards{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#cardChato{
+    text-align: justify;
+}
+
+.letraCards{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.tituloCard{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.caracCards{
+    /* width: 82%; */
+    width: 196.8px;
+    margin-left: 21.6px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    text-align: center;
+    /* visibility: hidden; */
+}
+
+.imgCard{
+    height: 50px;
+}
+
+/* .posicaoCard{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+} */
+ /* .card:hover{
+
+ } */

@@ -1,0 +1,57 @@
+#secFerramentas{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto 0 auto;
+}
+
+#containerCarro{
+    width: 86%;
+    overflow: hidden;
+    margin-left: 7%;
+    /* position: relative; */
+}
+
+#divCarrossel{
+    display: flex;
+    width: 200%;
+    height: 200px;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    transition: transform 1s ease;
+}
+
+#containerCarro:hover #divCarrossel{
+    transform: translateX(-50%);
+}
+
+.cardCarro{
+    width: 160px;
+    height: 160px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0px 2px 7px gray;
+}
+
+#cardCentarl{
+    width: 180px;
+    height: 180px;
+}
+
+#imgCentral{
+    width: 120px;
+}
+
+.imgCardCarro{
+    width: 110px;
+}
+
+#linhaFerramentas{
+    margin-top: 30px;
+    width: 50px;
+    border: 1px solid #000;
+    margin-left: calc((100% - 50px) / 2);
+}
