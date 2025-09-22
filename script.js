@@ -1,5 +1,6 @@
 let modoEscuro = false;
 let idioma = "pt-br";
+let estadoIdiomas
 
 const imgLua = document.getElementById("imgLua");
 const pIdioma = document.getElementById("pIdioma");
@@ -56,14 +57,54 @@ imgLua.addEventListener("click", () => {
     aplicarTema();
 });
 
-
 document.getElementById("divIdiomas").addEventListener("click", () => {
+    estadoIdiomas = estadoIdiomas === "cima" ? "baixo" : "cima";
+    console.log("O estado da div idiomas é:", estadoIdiomas);
+    aplicarDivIdiomas();
+});
+
+document.getElementById("mudaPort").addEventListener("click", () => {
     console.log("Alternando idioma, actual:", idioma);
-    idioma = idioma === "pt-br" ? "en" : "pt-br";
+    idioma = "pt-br";
+    document.getElementById("checkEn").classList.remove("visivel");
+    document.getElementById("checkEn").classList.add("invisivel");
+    document.getElementById("checkPort").classList.remove("invisivel");
+    document.getElementById("checkPort").classList.add("visivel");
+    console.log("Nuevo idioma:", idioma);
+    aplicarIdioma();
+});
+document.getElementById("mudaEn").addEventListener("click", () => {
+    console.log("Alternando idioma, actual:", idioma);
+    idioma = "en";
+    document.getElementById("checkPort").classList.remove("visivel");
+    document.getElementById("checkPort").classList.add("invisivel");
+    document.getElementById("checkEn").classList.remove("invisivel");
+    document.getElementById("checkEn").classList.add("visivel");
     console.log("Nuevo idioma:", idioma);
     aplicarIdioma();
 });
 
+function aplicarDivIdiomas(){
+    if(estadoIdiomas == "cima"){ 
+        document.getElementById("idRetIdioma").classList.remove("baixo"); 
+        document.getElementById("idRetIdioma").classList.add("cima"); 
+        if (modoEscuro) {
+            document.getElementById("imgFlechaIdioma").src = "img/flechaIdioma-escuro.png";
+        } else{
+            document.getElementById("imgFlechaIdioma").src = "img/flechaIdioma-claro.png";
+        }
+        
+    } else { 
+        document.getElementById("idRetIdioma").classList.add("baixo"); 
+        document.getElementById("idRetIdioma").classList.remove("cima"); 
+        if (modoEscuro) {
+            document.getElementById("imgFlechaIdioma").src = "img/flechaCima-escuro.png";
+        } else{
+            document.getElementById("imgFlechaIdioma").src = "img/flechaCima-claro.png";
+        }
+        
+    }
+}
 
 function aplicarTema() {
     imagensComTema.forEach(img => {
