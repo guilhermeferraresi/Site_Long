@@ -91,7 +91,7 @@
 #idRetIdioma{
     background-color: #F3F3F3;
     width: 130px;
-    height: 60px;
+    height: 90px;
     position: absolute;
     margin-left: -5px;
     display: flex;
@@ -111,6 +111,9 @@
 #checkEn{
     width: 20px;
 }
+#checkZh{
+    width: 20px;
+}
 
 #divLingua{
     display: flex;
@@ -128,9 +131,9 @@
 }
 
 .baixo{
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .cima{
-    margin-top: -140px;
+    margin-top: -180px;
 }

@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const prevPortfolio = document.getElementById("prevPortfolio");
   const nextPortfolio = document.getElementById("nextPortfolio");
   const sets = document.querySelectorAll(".portfolio-set");
+  const retIdioma = document.getElementById('idRetIdioma');
+  estadoIdiomas = retIdioma && retIdioma.classList.contains('cima') ? 'cima' : 'baixo';
+  aplicarDivIdiomas(); 
 
   let currentIndex = 0;
 
@@ -70,6 +73,8 @@ document.getElementById("mudaPort").addEventListener("click", () => {
     document.getElementById("checkEn").classList.add("invisivel");
     document.getElementById("checkPort").classList.remove("invisivel");
     document.getElementById("checkPort").classList.add("visivel");
+    document.getElementById("checkZh").classList.remove("visivel");
+    document.getElementById("checkZh").classList.add("invisivel");
     console.log("Nuevo idioma:", idioma);
     aplicarIdioma();
 });
@@ -80,6 +85,20 @@ document.getElementById("mudaEn").addEventListener("click", () => {
     document.getElementById("checkPort").classList.add("invisivel");
     document.getElementById("checkEn").classList.remove("invisivel");
     document.getElementById("checkEn").classList.add("visivel");
+    document.getElementById("checkZh").classList.remove("visivel");
+    document.getElementById("checkZh").classList.add("invisivel");
+    console.log("Nuevo idioma:", idioma);
+    aplicarIdioma();
+});
+document.getElementById("mudaZh").addEventListener("click", () => {
+    console.log("Alternando idioma, actual:", idioma);
+    idioma = "zh";
+    document.getElementById("checkPort").classList.remove("visivel");
+    document.getElementById("checkPort").classList.add("invisivel");
+    document.getElementById("checkEn").classList.remove("visivel");
+    document.getElementById("checkEn").classList.add("invisivel");
+    document.getElementById("checkZh").classList.remove("invisivel");
+    document.getElementById("checkZh").classList.add("visivel");
     console.log("Nuevo idioma:", idioma);
     aplicarIdioma();
 });
@@ -302,7 +321,84 @@ const traducoes = {
         "titFooterRedes": "Social Media",
         "pDireitosFooter": "LÓNG Technology @2025 - ALL RIGHTS RESERVED",
         "pTermosPolitica": "Terms and Conditions of Use       Privacy Policy"
-    }
+    },
+
+    "zh": {
+    "pTechMenu": "技术",
+    "menuInicio": "首页",
+    "menuSolucoes": "解决方案",
+    "menuQuemSomos": "关于我们",
+    "menuPortfolio": "作品集",
+    "pTransformando": "通过创新与卓越，改变您公司的未来。",
+    "pCriacao": "专注于创新、设计与成果的网站与移动应用开发。",
+    "pContatos": "联系方式",
+    "pOrc": "立即请求报价！",
+    "pPorCProjetos": "已完成项目",
+    "pPorCSatisfacao": "客户满意度",
+    "pPorCEquipe": "专业团队",
+    "tituloCardSoftware": "软件开发",
+    "pCardsArquitetura": "软件架构",
+    "pCardsMetodologias": "敏捷方法",
+    "pCardsTestes": "软件测试",
+    "pCardsSeguranca": "信息安全",
+    "txtCardsSoftware": "也称为软件开发，指设计、创建、实现和维护软件的过程。",
+    "letraCardsL": "L",
+    "tituloCardSites": "网站开发",
+    "pCardsFrontend": "前端开发",
+    "pCardsSEO": "SEO 优化",
+    "pCardsResponsivos": "响应式网站",
+    "pCardsAcessibilidade": "网络无障碍",
+    "txtCardsSites": "也称为网站开发，是构建网站所需的一系列活动。",
+    "letraCardsO": "Ó",
+    "tituloCardUIUX": "UI / UX 设计",
+    "pCardsWireframes": "交互式线框图",
+    "pCardsDesignSystem": "设计系统",
+    "pCardsPsicologia": "色彩心理学",
+    "pCardsUsabilidade": "可用性测试",
+    "txtCardsUIUX": "UX 设计关注功能性与整体体验，UI 设计关注外观与视觉交互。",
+    "letraCardsN": "N",
+    "tituloCardApps": "应用开发",
+    "pCardsNativoHibrido": "原生 与 混合 开发",
+    "pCardsAPIs": "API 调用",
+    "pCardsPerformance": "性能与优化",
+    "pCardsPublicacao": "应用商店发布",
+    "txtCardsApps": "也称为移动应用开发，是为移动设备创建软件的过程。",
+    "letraCardsG": "G",
+    "pTituloQuem": "关于我们",
+    "pConheca": "了解更多关于我们的信息",
+    "pTituloLong": "LÓNG Technology",
+    "pTxtLong": "LÓNG Technology 是一家从原型设计到系统管理与维护的专业系统与网站公司，始终引入市场上最好、最新的技术。",
+    "pTituloNossaEquipe": "我们的团队",
+    "txtNossaEquipe": "我们专业的团队",
+    "pAno": "2025",
+    "pTituloFerramentas": "我们的工具",
+    "tituloMVVMissao": "使命",
+    "pTxtMVVMissao": "开发创新高效的技术解决方案，为客户提供高质量、定制且灵活的系统，优化流程并推动业务发展。",
+    "tituloMVVVisao": "愿景",
+    "pTxtMVVVisao": "成为系统开发领域的标杆，以卓越、创新和对数字化转型的承诺获得认可，积极影响企业和用户。",
+    "tituloMVVValor": "价值观",
+    "pTxtMVVValor": "透明、协作与以客户为中心，始终以诚信与责任保障高效的解决方案。",
+    "pTitTransforma": "将您的想法变为现实",
+    "pTxtTrans": "让我们一起推动您的线上影响力！请求报价，看看我们的开发专长如何为您的业务带来惊人成果。",
+    "pTituloPortfolio": "作品集",
+    "pPortfolioTitle1": "示例项目 1",
+    "pPortfolioDesc1": "\"它使用包含 200 多个拉丁单词的词典，结合一些模型句子结构来生成看起来自然的 Lorem Ipsum。生成的 Lorem Ipsum 因此始终避免重复、插入玩笑或不典型的词语等。互联网上的 Lorem Ipsum 生成器通常会根据需要重复预定义的片段，使其成为互联网上第一个真正的生成器。它使用包含 200 多个拉丁单词的词典，结合一些模型句子结构来生成看起来自然的 Lorem Ipsum。生成的 Lorem Ipsum 因此始终避免重复、插入玩笑或不典型的词语等。\"",
+    "pPortfolioCEO1": "公司首席执行官 - Irineu",
+    "pPortfolioTitle2": "示例项目 2",
+    "pPortfolioDesc2": "\"它使用包含 200 多个拉丁单词的词典，结合一些模型句子结构来生成看起来自然的 Lorem Ipsum。生成的 Lorem Ipsum 因此始终避免重复、插入玩笑或不典型的词语等。互联网上的 Lorem Ipsum 生成器通常会根据需要重复预定义的片段，使其成为互联网上第一个真正的生成器。它使用包含 200 多个拉丁单词的词典，结合一些模型句子结构来生成看起来自然的 Lorem Ipsum。生成的 Lorem Ipsum 因此始终避免重复、插入玩笑或不典型的词语等。\"",
+    "pPortfolioCEO2": "公司首席执行官 - Irineu",
+    "btnVejaMais": "查看更多项目",
+    "titFooterMenu": "菜单",
+    "pFooterHome": "首页",
+    "titFooterContato": "联系方式",
+    "pFooterTelefone": "(11) 97443-8072",
+    "pFooterEndereco": "Av. Brigadeiro Faria Lima, 3636",
+    "pFooterHorario": "周一至周五：09:00 - 18:00",
+    "pFooterEmail": "longtechnology2025@gmail.com",
+    "titFooterRedes": "社交媒体",
+    "pDireitosFooter": "LÓNG Technology @2025 - 保留所有权利",
+    "pTermosPolitica": "使用条款       隐私政策"
+  }
 };
 
 
