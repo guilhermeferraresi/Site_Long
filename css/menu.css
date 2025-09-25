@@ -115,11 +115,15 @@
     width: 20px;
 }
 
-#divLingua{
+.divdiv{
     display: flex;
     width: 90%;
     margin-left: 5%;
     justify-content: space-between;
+}
+
+#divLingua:hover{
+    background-color: #dddcdc;
 }
 
 .invisivel{

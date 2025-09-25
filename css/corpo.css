@@ -132,11 +132,9 @@
 }
 
 .pTituloGeral{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
-    text-decoration: underline;
     margin-top: 40px;
-    text-decoration-thickness: 1.5px;
     color: #000;
 }
 #txtNossaEquipe{

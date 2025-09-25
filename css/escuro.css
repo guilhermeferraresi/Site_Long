@@ -34,6 +34,11 @@ body.modo-escuro {
     color: #ffffff;
 }
 
+body.modo-escuro #divLingua:hover{
+    background-color: #3f3c3c;
+}
+
+
 body.modo-escuro #secInicio {
     background-color: #1a1a1a;
 }
