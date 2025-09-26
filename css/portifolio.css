@@ -21,7 +21,7 @@
 }
 
 .perfil-img{
-     width: 25px;
+     width: 55px;
 }
 
 .portfolio-set {
@@ -81,9 +81,12 @@
 }
 
 .portfolio-perfil {
-    font-size: 14px;
+    width: 275px;
+    font-size: 20px;
     color: #000000;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .carousel-btn {
@@ -100,6 +103,33 @@
 .carousel-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+}
+
+#sobreposicao{
+    display: flex;
+    width: 400px;
+
+}
+
+.imgTeste{
+    width: 400px;
+}
+
+#imgCreepy{
+    width: 346px;   
+    
+}
+
+#limitaProjeto{
+    width: 346px;  
+    height: 179px;
+    overflow:scroll;
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 23px;
+}
+#limitaProjeto::-webkit-scrollbar {
+    display: none; /* Esconde a barra de rolagem */
 }
 
 body.modo-escuro #secPortfolio {
