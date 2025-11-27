@@ -2,7 +2,8 @@ footer{
     margin: 30px auto 0 auto;
     width: 90%;
     max-width: 1300px;
-    height: 230px;
+    height: 160px;
+    /* height: 230px; */
 }
 
 #divFooter{
@@ -17,7 +18,7 @@ footer{
 
 #fEsquerda{
     display: flex;
-    width: 600px;
+    /* width: 600px; */
     justify-content: space-between;
 }
 
@@ -77,3 +78,7 @@ footer{
     margin-top: 10px;
 }
 
+.meioFooter{
+    width: 100%;
+    margin: auto;
+}

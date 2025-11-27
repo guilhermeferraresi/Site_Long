@@ -81,12 +81,13 @@
 }
 
 .portfolio-perfil {
-    width: 275px;
     font-size: 18px;
     color: #000000;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+.idNomeDono{
+    margin-left: 10px;
 }
 
 .carousel-btn {
