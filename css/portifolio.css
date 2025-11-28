@@ -22,6 +22,7 @@
 
 .perfil-img{
      width: 55px;
+     border-radius: 100%;
 }
 
 .portfolio-set {
@@ -47,19 +48,16 @@
     padding: 20px;
 }
 
-.desktop-item .imgPortfolio {
-    margin-right: 5%;
-}
-
-.mobile-item .imgPortfolio {
-    margin-left: 5%;
-}
-
 .imgPortfolio {
-    width: 25%;
+    width: 380px;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.imgPortMobile{
+    height: 300px;
+    margin: auto;
 }
 
 .portfolio-text {
@@ -119,6 +117,11 @@
 #imgCreepy{
     width: 346px;   
     
+}
+
+.portfolio-item{
+    display: flex;
+    justify-content: space-between;
 }
 
 #limitaProjeto{
