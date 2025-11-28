@@ -418,7 +418,7 @@ const traducoes = {
     "pPortfolioDesc4": "Lumina Wear 通过避免传统零售中重复的模式，在时尚领域脱颖而出，使其线上和线下商店成为风格与原创性的参考。品牌采用精心的创意流程和不断更新的商品目录，并结合现代化的趋势策展模型，为那些通过穿衣方式寻求自我表达的人提供真正有意义的单品。因此，Lumina Wear 的产品避免了通用系列、混乱的信息或不直观的购物体验，确保为顾客带来难忘、高效且富有启发性的服务体验。",
     "pPortfolioCEO4": "Jhonatan Ferreira，Lumina Wear 创意总监",
     "pPortfolioDesc5": "StreamVibe Media 在开发娱乐平台方面表现突出，通过避免市场上常见模式的重复，使其流媒体应用成为电影和剧集爱好者的创新参考。公司结合广泛且持续更新的目录，以及先进的策展与信息架构模型，为各类用户提供真正有意义的体验。因此，StreamVibe Media 的产品避免了重复的推荐、混乱的界面或不直观的功能，确保带来高效、沉浸且可靠的导航体验。",
-    "pPortfolioCEO5": "Lucas Andrade, Diretor de Produto da StreamVibeMedia",
+    "pPortfolioCEO5": "卢卡斯·安德拉德，StreamVibeMedia 的产品总监",
     "pPortfolioTitle6": "Shopery Market",
     "pPortfolioDesc6": "Shopery Market 在开发可持续零售领域的电商解决方案时，通过避免重复市场上常见的模式而脱颖而出，使其平台成为注重环保消费者的创新典范。公司采用严格筛选的环保产品，并结合持续更新的信息库和先进的导航架构模型，为追求正面影响的用户提供真正有意义的选择。因此，Shopery Market 的产品避免了不一致的商品描述、表面的策展或不直观的功能，确保带来透明、高效且可靠的购物体验。",
     "pPortfolioCEO6": "索菲娅·马丁斯，Shopery 的首席执行官",
