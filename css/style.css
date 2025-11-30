@@ -7,8 +7,6 @@
 @import "portifolio.css";
 @import "escuro.css";
 
-/* 1348px */
-
 *{
     margin: 0;
     padding: 0;
@@ -20,11 +18,8 @@ body{
 html{
     scroll-behavior: smooth;
 }
-/* ======== RESPONSIVIDADE GERAL ======== */
 
-/* Tablets (768px até 1024px) */
 @media (max-width: 1024px) {
-  /* Cards */
   #secSolucoes {
     flex-wrap: wrap;
     justify-content: center;
@@ -37,7 +32,6 @@ html{
     margin-bottom: 20px;
   }
 
-  /* Seções em colunas */
   #secInicio,
   #divLongTech,
   #secMVV,

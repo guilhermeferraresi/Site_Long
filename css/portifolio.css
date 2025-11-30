@@ -104,12 +104,6 @@
     cursor: not-allowed;
 }
 
-#sobreposicao{
-    display: flex;
-    width: 400px;
-
-}
-
 .imgTeste{
     width: 400px;
 }
@@ -122,6 +116,11 @@
 .portfolio-item{
     display: flex;
     justify-content: space-between;
+}
+
+#sobreposicao{
+    display: flex;
+    width: 400px;
 }
 
 #limitaProjeto{

@@ -5,10 +5,7 @@ let estadoIdiomas
 const imgLua = document.getElementById("imgLua");
 const pIdioma = document.getElementById("pIdioma");
 
-
 const imagensComTema = document.querySelectorAll("img");
-
-
 
 document.addEventListener("DOMContentLoaded", () => {
   const portfolioCarousel = document.getElementById("portfolioCarousel");
@@ -49,10 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
- 
   scrollToCurrentSet();
 });
-
 
 imgLua.addEventListener("click", () => {
     modoEscuro = !modoEscuro;
@@ -161,7 +156,6 @@ function aplicarIdioma() {
         }
     });
 }
-
 
 document.addEventListener("DOMContentLoaded", () => {
     console.log("DOM cargado, inicializando idioma:", idioma);
