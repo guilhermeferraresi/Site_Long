@@ -3,13 +3,11 @@
     max-width: 1300px;
     margin: 0 auto 0 auto;
 }
-
 #containerCarro{
     width: 86%;
     overflow: hidden;
     margin-left: 7%;
 }
-
 #divCarrossel{
     display: flex;
     width: 200%;
@@ -19,7 +17,6 @@
     align-items: center;
     transition: transform 1s ease;
 }
-
 #containerCarro:hover #divCarrossel{
     transform: translateX(-50%);
 }
